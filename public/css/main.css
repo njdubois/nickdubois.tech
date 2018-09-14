@@ -1,0 +1,70 @@
+body {
+    background-color:black;
+    height:100%;
+    padding:0;
+    margin: 0;
+}
+
+.container-div {
+    /*border: 1px solid yellow;*/
+    background-image:url('../images/guitarFret.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding:25px;
+    height:94.7vh;
+    /*height:100%;*/
+}
+
+
+.container-div {
+    /*border: 1px solid pink;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-div .headerContent {
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.container-div .headerContent .headerText {
+    padding:0;
+    margin:0;
+    font-size:95px;
+}
+
+.container-div .headerContent .headerSubText {
+    padding:0 0 0 5px;
+    margin: -25px 0 0 0;
+    font-size:24px;
+    text-transform: uppercase;
+}
+
+
+.container-div .headerContent {
+    margin-left:25px;
+    /*border: 1px solid green;*/
+    font-family: 'Merriweather', serif;
+    font-size:36px;
+}
+
+.container-div .headerContent ul {
+    text-shadow: -1px 0 #444, 0 1px #444, 1px 0 #444, 0 -1px #444;
+    padding: 0 10px 0 10px;
+    margin:0 0 0 75px;
+}
+
+.container-div .headerContent ul li {
+    /*display:inline-block;*/
+    font-size:20px;
+}
+
+.container-div .headerLogo {
+    border-radius: 50%;
+    border: 1px solid #444;
+    /*width:100px;*/
+    /*height:100px;*/
+}
