@@ -1,5 +1,5 @@
 body {
-    background-color:black;
+    background-color:white;
     height:100%;
     padding:0;
     margin: 0;
@@ -67,4 +67,80 @@ body {
     border: 1px solid #444;
     /*width:100px;*/
     /*height:100px;*/
+}
+
+
+
+
+.aContentPage {
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.aExperienceItem {
+    margin: 15px 0 15px 0;
+    padding:15px;
+    border: 1px solid black;
+}
+
+.experienceLabel {
+    margin: 15px 0 0 0;
+    padding: 0;
+    font-size:16px;
+}
+
+.experienceHeader {
+
+}
+
+
+.experienceHeader h1 {
+
+    margin: 0 5px 0 0;
+    padding: 0;
+    display:inline-block;
+    font-size:26px;
+    font-weight:bold;
+}
+
+.experienceHeader h2 {
+
+    margin: 0;
+    padding: 0 0 0 0px;
+    display:inline-block;
+    font-weight:normal;
+    font-size:20px;
+}
+
+
+
+.experiencePosition {
+    font-style: italic;
+    margin:0;
+    padding:0;
+    font-size:18px;
+}
+
+.experienceDates {
+    margin:5px 0 0 0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-size:12px;
+    text-transform: uppercase;
+
+}
+
+.experienceDescription {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.aExperienceItem ul {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.aExperienceItem li {
+    font-size: 12px;
 }
