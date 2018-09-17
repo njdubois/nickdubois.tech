@@ -1,26 +1,28 @@
-<div class="experienceContainer">
+<div class="aExperienceItem">
 
     <div class="experienceHeader">
-        <h1>Company Name</h1>
-        <h2>Company Location</h2>
+        <h1>{{$company}}</h1>
+        <h2>{{$companyLocation}}</h2>
+    </div>
+    <div class="experienceHeader">
+        <h3>{{$positionTitle}}</h3>
+        <p class="experienceDates">{{ $dateRangeText }}</p>
     </div>
 
-    <p class="experienceDates">Employment Date</p>
-    <p class="experienceDescription">
-        Job Description, blah.  My work here. Blip.  This is what I did at this position.  Blip
-        Blah. Job Description, blah.  My work here. Blip.  This is what I did at this
-        position.  Blip Blah. Job Description, blah.  My work here. Blip.  This is what I
-        did at this position.  Blip Blah. Job Description, blah.  My work here. Blip.  This is what
-        I did at this position.  Blip Blah.
-    </p>
+
+    <p class="experienceDescription">{{ $jobDescription }}</p>
 
     <p class="experienceLabel">Utilized Skills:</p>
     <ul>
-        <li>project</li>
+        @foreach($utilizedSkills as $aSkill)
+            <li>{{$aSkill}}</li>
+        @endforeach
     </ul>
 
     <p class="experienceLabel">Noted Projects:</p>
     <ul>
-        <li>project</li>
+        @foreach($notedProjects as $aProject)
+            <li>{{$aProject}}</li>
+        @endforeach
     </ul>
 </div>
