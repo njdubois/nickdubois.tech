@@ -11,5 +11,7 @@
 |
 */
 
+
 Route::get('/', 'indexController@index')->name('index');
+Route::any('/huh', 'indexController@huh')->name('huh');
 Route::any('/nikki', 'indexController@nikki')->name('nikki');
