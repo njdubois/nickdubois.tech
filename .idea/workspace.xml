@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84f17be5-3375-40c2-962c-f131cd75c45c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/nikki.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/nikki.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/indexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/indexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nikki.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nikki.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/nikki.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -28,17 +29,17 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="indexController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/indexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="222" column="1" lean-forward="true" selection-start-line="222" selection-start-column="1" selection-end-line="222" selection-end-column="1" />
+            <state relative-caret-position="408">
+              <caret line="220" column="19" lean-forward="true" selection-start-line="220" selection-start-column="19" selection-end-line="220" selection-end-column="19" />
               <folding>
                 <element signature="e#162#2126#0#PHP" />
                 <element signature="e#2145#8836#0#PHP" />
@@ -64,9 +65,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/indexController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/nikki.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/indexController.php" />
       </list>
     </option>
   </component>
@@ -259,12 +260,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544105724470</updated>
-      <workItem from="1544105735267" duration="1601000" />
+      <workItem from="1544105735267" duration="1681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1601000" />
+    <option name="totallyTimeSpent" value="1681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="828" extended-state="0" />
@@ -306,28 +307,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/indexController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/nikki.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="222" column="1" lean-forward="true" selection-start-line="222" selection-start-column="1" selection-end-line="222" selection-end-column="1" />
-          <folding>
-            <element signature="e#162#2126#0#PHP" />
-            <element signature="e#2145#8836#0#PHP" />
-          </folding>
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="53" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/nikki.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/indexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="53" selection-end-column="19" />
+        <state relative-caret-position="408">
+          <caret line="220" column="19" lean-forward="true" selection-start-line="220" selection-start-column="19" selection-end-line="220" selection-end-column="19" />
+          <folding>
+            <element signature="e#162#2126#0#PHP" />
+            <element signature="e#2145#8836#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>

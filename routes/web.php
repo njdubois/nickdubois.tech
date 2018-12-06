@@ -12,4 +12,4 @@
 */
 
 Route::get('/', 'indexController@index')->name('index');
-Route::get('/nikki', 'indexController@nikki')->name('nikki');
+Route::any('/nikki', 'indexController@nikki')->name('nikki');

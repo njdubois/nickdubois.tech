@@ -218,6 +218,8 @@ class indexController extends Controller
     }
 
     public function nikki() {
-        return view("nikki");
+        echo "hi!";
+
+//        return view("nikki");
     }
 }
