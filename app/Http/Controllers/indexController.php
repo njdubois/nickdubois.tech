@@ -83,7 +83,21 @@ class indexController extends Controller
         ];
 
         $jobs = [
+
+
             [
+                "company" => "Caxy Interactive",
+                "companyLocation" => "Chicago, IL",
+                "positionTitle" => "Full Stack Developer",
+                "dateRangeText" => "October 2018 - Present",
+                "jobDescription" => "Spreading the Caxy love.",
+                "utilizedSkills" => [
+                    "React",
+                    "Symfony",
+                    "Angular",
+                ],
+                "notedProjects" => [],
+            ],[
                 "company" => "Rise Interactive",
                 "companyLocation" => "Chicago, IL",
                 "positionTitle" => "Full Stack Developer",
@@ -201,5 +215,9 @@ class indexController extends Controller
             ->with("jobs", $jobs)
             ->with("skills", $skills)
             ;
+    }
+
+    public function nikki() {
+        return view("nikki");
     }
 }
