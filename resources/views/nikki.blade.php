@@ -3,7 +3,7 @@
 
     <style>
         body {
-            background-image:url('images/guitarFret.jpg');
+            background-image:url('../../public/images/guitarFret.jpg');
             background-size:100%;
             background-repeat: no-repeat;
             background-position: center;
@@ -11,7 +11,7 @@
 
         img {
             width:400px;
-            
+
         }
 
         .header {
@@ -49,7 +49,7 @@
             ["20181205_231817.mp4", "0"],
         ];
     ?>
-    <img src="20181205_225722.jpg" class="" />
+    <img src="20181205_225723.jpg" class="" />
     @foreach($fileList as $file)
         <div class="aDownload">
             <b>{{$file[0]}}</b><br>

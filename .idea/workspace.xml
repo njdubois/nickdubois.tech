@@ -19,8 +19,8 @@
       <file leaf-file-name="nikki.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/nikki.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="187">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -238,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544105724470</updated>
       <workItem from="1544105735267" duration="1792000" />
-      <workItem from="1544147381189" duration="2082000" />
+      <workItem from="1544147381189" duration="2577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3874000" />
+    <option name="totallyTimeSpent" value="4369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="828" extended-state="0" />
@@ -345,8 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/nikki.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
