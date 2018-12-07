@@ -9,6 +9,11 @@
             background-position: center;
         }
 
+        img {
+            width:400px;
+            
+        }
+
         .header {
 
         }
@@ -44,7 +49,7 @@
             ["20181205_231817.mp4", "0"],
         ];
     ?>
-    <img src="20181205_225722.jpg" />
+    <img src="20181205_225722.jpg" class="" />
     @foreach($fileList as $file)
         <div class="aDownload">
             <b>{{$file[0]}}</b><br>
