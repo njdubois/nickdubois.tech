@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class indexController extends Controller
 {
-    public function huh() {echo "huh";}
+
     public function index() {
 
         $skills = [
@@ -219,8 +219,6 @@ class indexController extends Controller
     }
 
     public function nikki() {
-        echo "hi!";
-
-//        return view("nikki");
+        return view("nikki");
     }
 }
