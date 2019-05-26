@@ -22,7 +22,7 @@ class indexController extends Controller
                 "size"=>"90%",
             ],
             [
-                "skillTitle" => "Javascript",
+                "skillTitle" => "JavascriptXYZ",
                 "subSkills" => [
                     "JQUERY",
                     "Angular",
