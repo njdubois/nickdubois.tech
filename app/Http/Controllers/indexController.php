@@ -218,7 +218,7 @@ class indexController extends Controller
             ;
     }
 
-    public function nikki() {
-        return view("nikki");
+    public function huh() {
+        return "Hello!";
     }
 }
